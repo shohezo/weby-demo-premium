@@ -1,0 +1,273 @@
+@charset "UTF-8";
+@media screen and (max-width: 1330px) {
+  .bl_header_info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .ly_fv {
+    background-position: 60% 20%;
+  }
+  .bl_nav,
+  .ly_cta {
+    display: none;
+  }
+  .bl_drawerBtn {
+    display: block;
+  }
+  .bl_info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+/*--------------------------------
+タブレット
+--------------------------------*/
+@media screen and (max-width: 768px) {
+  .bl_success_card {
+    max-width: 490px;
+    margin: 0 auto;
+  }
+  .bl_success_name {
+    width: 72%;
+  }
+  /* ファーストビュー */
+  .ly_fv {
+    background-position: center;
+  }
+  .ly_fv .bl_fv_box h1 {
+    font-size: 5rem;
+  }
+  /* サクセスセクション */
+  .bl_success {
+    margin-top: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bl_success_body {
+    margin-bottom: 30px;
+  }
+  /* フッター */
+  footer .bl_footer_nav_item {
+    border-right: none;
+    margin-bottom: 10px;
+  }
+  /* ブログアーカイブページ */
+  #blog-archive .bl_blog_card {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #blog-archive .bl_blog_item {
+    width: 100%;
+  }
+  #blog-archive .bl_blog_thumbnail {
+    width: 100%;
+  }
+  #blog-archive .bl_blog_body {
+    width: 100%;
+  }
+  /* 投稿詳細ページ */
+  main {
+    width: 100%;
+  }
+  .bl_myrecommended p {
+    width: 100%;
+  }
+  .ly_sidebar {
+    width: 100%;
+  }
+  .bl_myrelated {
+    margin-top: 30px;
+  }
+  .bl_myrelated figure {
+    width: 28%;
+  }
+  .bl_myrelated p {
+    width: 66%;
+  }
+  /* 料金ページ */
+  .bl_system_body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bl_price_ttl {
+    font-size: small;
+  }
+  /* ヘルパークラス */
+  .hp_tb-br {
+    display: block;
+  }
+  .hp_column_tb {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+
+/*--------------------------------
+スマホ
+--------------------------------*/
+@media screen and (max-width: 519px) {
+  /* フォントサイズ */
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  body {
+    font-size: 1.3rem;
+  }
+  /* フォントサイズここまで */
+  /* ヘッダー */
+  .bl_header_info {
+    display: none;
+  }
+  .el_logo a {
+    font-size: 1.8rem;
+  }
+  /* ファーストビュー */
+  .ly_fv {
+    background-position: 60% 20%;
+  }
+  .ly_fv .bl_fv_box {
+    top: 60%;
+  }
+  .ly_fv .bl_fv_box h1 {
+    font-size: 3rem;
+  }
+  .ly_fv .bl_fv_box p {
+    font-size: 2rem;
+  }
+  /* イントロセクション */
+  .bl_intro_item {
+    margin-bottom: 20px;
+  }
+  .bl_intro_item br {
+    display: none;
+  }
+  .bl_intro_box_ttl {
+    font-size: 2rem;
+  }
+  /* フューチャーセクション */
+  .bl_feature {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .bl_feature_body {
+    width: 90%;
+  }
+  .bl_feature_ttl {
+    margin-bottom: 35px;
+  }
+  .bl_feature_txt {
+    margin-bottom: 20px;
+  }
+  .bl_feature_img {
+    width: 90%;
+  }
+  .el_plan {
+    background-position: 14%;
+  }
+  .hp_round button {
+    width: 200px;
+    height: 50px;
+  }
+  /* サクセスセクション */
+  .bl_success_name {
+    width: 67%;
+  }
+  /* フローセクション */
+  .bl_flow_row {
+    display: block;
+    height: 100px;
+  }
+  .bl_flow_number {
+    padding: 10px 21px;
+  }
+  .bl_flow_summary {
+    padding: 0;
+    width: 50%;
+    font-weight: 600;
+  }
+  .bl_flow_detail {
+    width: 100%;
+    padding: 10px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .bl_flow_detail::before {
+    background-color: transparent;
+  }
+  /* クエスチョンセクション */
+  .bl_faq_list_header {
+    padding: 20px 0px;
+  }
+  .bl_faq_list_header p {
+    width: 80%;
+  }
+  /* ブログセクション */
+  #blog .el_section_ttl {
+    text-align: center;
+    margin-bottom: 32.5px;
+  }
+  #blog .bl_blog_list {
+    width: 100%;
+  }
+  /* ニュースセクション */
+  #blog .bl_news {
+    width: 100%;
+  }
+  #blog .bl_news .el_section_ttl {
+    text-align: center;
+  }
+  /* CTAセクション */
+  .bl_cta_lead {
+    font-size: 1.8rem;
+  }
+  /* お知らせアーカイブページ */
+  #news-archive .bl_news_date {
+    margin-right: 0;
+  }
+  #news-archive .bl_news_item {
+    margin-left: 30px;
+  }
+  /* 料金表ページ */
+  .bl_system_body p {
+    text-align: center;
+  }
+  .bl_priceUnit {
+    margin-top: 50px;
+    width: 700px;
+  }
+  /* コンタクトページ */
+  /* ヘルパークラス */
+  .hp_sp-br {
+    display: block;
+  }
+  .hp_column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

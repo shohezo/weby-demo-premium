@@ -1,0 +1,292 @@
+@media screen and(max-width:1330px) {
+  .bl_header_info {
+    display: none;
+  }
+}
+
+@media screen and(max-width:1130px) {
+  .ly_fv {
+    background-position: 60% 20%;
+  }
+  .bl_nav,
+  .ly_cta {
+    display: none;
+  }
+  .bl_drawerBtn {
+    display: block;
+  }
+  .bl_info {
+    flex-direction: column;
+    align-items: center;
+    transform: none;
+  }
+}
+/*--------------------------------
+タブレット
+--------------------------------*/
+@media screen and(max-width:768px) {
+  .bl_success_card {
+    max-width: 490px;
+    margin: 0 auto;
+  }
+  .bl_success_name {
+    width: 72%;
+  }
+  /* ファーストビュー */
+  .ly_fv {
+    background-position: center;
+    .bl_fv_box {
+      h1 {
+        font-size: 5rem;
+      }
+    }
+  }
+
+  /* サクセスセクション */
+  .bl_success {
+    margin-top: 30px;
+    align-items: center;
+    &_body {
+      margin-bottom: 30px;
+    }
+  }
+
+  /* フッター */
+  footer .bl_footer_nav {
+    &_item {
+      border-right: none;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* ブログアーカイブページ */
+  #blog-archive {
+    .bl_blog {
+      &_card {
+        width: 90%;
+        margin: 0 auto;
+      }
+      &_item {
+        width: 100%;
+      }
+      &_thumbnail {
+        width: 100%;
+      }
+      &_body {
+        width: 100%;
+      }
+    }
+  }
+
+  /* 投稿詳細ページ */
+  main {
+    width: 100%;
+  }
+  .bl_myrecommended {
+    p {
+      width: 100%;
+    }
+  }
+  .ly_sidebar {
+    width: 100%;
+  }
+  .bl_myrelated {
+    margin-top: 30px;
+    figure {
+      width: 28%;
+    }
+    p {
+      width: 66%;
+    }
+  }
+  /* 料金ページ */
+  .bl_system_body {
+    align-items: center;
+  }
+  .bl_price_ttl {
+    font-size: small;
+  }
+  /* ヘルパークラス */
+  .hp_tb-br {
+    display: block;
+  }
+  .hp_column_tb {
+    flex-direction: column !important;
+  }
+}
+/*--------------------------------
+スマホ
+--------------------------------*/
+@media screen and(max-width:519px) {
+  /* フォントサイズ */
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  body {
+    font-size: 1.3rem;
+  }
+
+  /* フォントサイズここまで */
+
+  /* ヘッダー */
+  .bl_header_info {
+    display: none;
+  }
+
+  .el_logo a {
+    font-size: 1.8rem;
+  }
+
+  /* ファーストビュー */
+  .ly_fv {
+    background-position: 60% 20%;
+    .bl_fv_box {
+      top: 60%;
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  /* イントロセクション */
+  .bl_intro {
+    &_item {
+      margin-bottom: 20px;
+      br {
+        display: none;
+      }
+    }
+    &_box {
+      &_ttl {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  /* フューチャーセクション */
+  .bl_feature {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    &_body {
+      width: 90%;
+    }
+    &_ttl {
+      margin-bottom: 35px;
+    }
+    &_txt {
+      margin-bottom: 20px;
+    }
+    &_img {
+      width: 90%;
+    }
+  }
+  .el_plan {
+    background-position: 14%;
+  }
+  .hp_round button {
+    width: 200px;
+    height: 50px;
+  }
+
+  /* サクセスセクション */
+  .bl_success_name {
+    width: 67%;
+  }
+
+  /* フローセクション */
+  .bl_flow {
+    &_row {
+      display: block;
+      height: 100px;
+    }
+    &_number {
+      padding: 10px 21px;
+    }
+    &_summary {
+      padding: 0;
+      width: 50%;
+      font-weight: 600;
+    }
+    &_detail {
+      width: 100%;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      &::before {
+        background-color: transparent;
+      }
+    }
+  }
+
+  /* クエスチョンセクション */
+  .bl_faq_list_header {
+    padding: 20px 0px;
+    p {
+      width: 80%;
+    }
+  }
+
+  /* ブログセクション */
+  #blog .el_section_ttl {
+    text-align: center;
+    margin-bottom: 32.5px;
+  }
+  #blog .bl_blog_list {
+    width: 100%;
+  }
+  /* ニュースセクション */
+  #blog .bl_news {
+    width: 100%;
+  }
+  #blog .bl_news .el_section_ttl {
+    text-align: center;
+  }
+
+  /* CTAセクション */
+  .bl_cta_lead {
+    font-size: 1.8rem;
+  }
+
+  /* お知らせアーカイブページ */
+  #news-archive {
+    .bl_news_date {
+      margin-right: 0;
+    }
+    .bl_news_item {
+      margin-left: 30px;
+    }
+  }
+
+  /* 料金表ページ */
+  .bl_system_body {
+    p {
+      text-align: center;
+    }
+  }
+  .bl_priceUnit {
+    margin-top: 50px;
+    width: 700px;
+  }
+
+  /* コンタクトページ */
+
+  /* ヘルパークラス */
+  .hp_sp-br {
+    display: block;
+  }
+
+  .hp_column {
+    flex-direction: column !important;
+  }
+}
